@@ -1,4 +1,4 @@
-🎨 Hand Gesture Paint App
+🎨 Hand Gesture Paint GUI
 
 Draw on a virtual canvas using just your hand gestures! Select colors, erase mistakes, and create art in real-time—no touchscreen required. Perfect for showcasing computer vision, hand tracking, and interactive UI skills.
 
