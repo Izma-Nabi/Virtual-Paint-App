@@ -1,64 +1,65 @@
 🎨 Hand Gesture Paint App
 
-Get Started • Features • Screenshots • Demo Video • Documentation
-
-Draw on a virtual canvas using your hand gestures! Select colors, erase mistakes, and create art in real-time without touching the screen. Perfect for showcasing computer vision and hand tracking skills.
+Draw on a virtual canvas using just your hand gestures! Select colors, erase mistakes, and create art in real-time—no touchscreen required. Perfect for showcasing computer vision, hand tracking, and interactive UI skills.
 
 Get Started
- | View Demo Video
+ • Demo Video
+ • Documentation
 
 🖌️ Overview
 
-The Hand Gesture Paint App is a real-time gesture-based drawing application built with Python, OpenCV, and MediaPipe. It tracks your hand movements using a webcam and allows you to draw, change colors, and erase on a virtual canvas.
+The Hand Gesture Paint App is a real-time gesture-based drawing application built with Python, OpenCV, and MediaPipe. Using your webcam, it tracks your hand movements and lets you:
 
-Clean UI and smooth drawing experience.
+Draw naturally with your index finger
 
-Select different colors or erase using simple gestures.
+Change colors or erase with simple gestures
 
-Automatically records your drawing session as a video.
+Automatically record your drawing session as a video
 
-This project is ideal for academic projects, portfolios, or interactive demos.
+This project is ideal for portfolios, academic projects, or interactive demos.
 
 ✨ Key Features
 🎨 Gesture-Based Drawing
 
-Draw freely using your index finger.
+Draw freely using your index finger
 
-Smooth and responsive lines that follow your hand movement.
+Smooth, responsive lines that follow hand movement
 
 🖌 Color & Eraser Selection
 
-Two fingers up to enter selection mode.
+Raise two fingers (index + middle) to enter selection mode
 
-Select from multiple colors or choose black as an eraser.
+Choose from multiple colors or black for erasing
 
-Selection is limited to the header area, preventing accidental color changes while drawing.
+Selection limited to the header to prevent accidental changes
 
 🖼 Virtual Canvas
 
-Your drawings appear on a separate canvas over the live webcam feed.
+Drawings appear on a separate canvas over the live webcam feed
 
-Merge canvas with video feed for a natural painting experience.
+Merge canvas with video feed for a natural painting experience
 
 💾 Video Recording
 
-Automatically records your drawing session.
+Sessions are automatically recorded as drawing_output.avi
 
-Saved as drawing_output.avi for easy playback and sharing.
+Easy playback and sharing of your creations
 
 ⚡ Real-Time Performance
 
-Uses MediaPipe Hands for accurate hand landmark detection.
+MediaPipe Hands for accurate landmark detection
 
-Runs smoothly on modern CPUs with minimal lag.
+Smooth performance on modern CPUs with minimal lag
 
 🖥 Screenshots
 
 Header with Color Palette
 
+Screenshot here
 
 Drawing Mode
 
+Screenshot here
 
 🚀 Getting Started
 Prerequisites
@@ -79,39 +80,38 @@ cd HandGesturePaint
 Create and activate a virtual environment:
 
 python -m venv .venv
-.\.venv\Scripts\activate  # Windows
-# or
-source .venv/bin/activate  # Linux / Mac
+# Windows
+.\.venv\Scripts\activate
+# Linux / Mac
+source .venv/bin/activate
 
-Install required packages:
+Install dependencies:
 
 pip install -r requirements.txt
 Usage
 
-Run the main script:
+Run the app:
 
 python main.py
 
 Controls:
 
 Gesture	Action
-Two fingers up (index + middle) in header	Select color / eraser
+Two fingers up in header	Select color / eraser
 Index finger only	Draw on canvas
 Black color	Erase previous lines
 
-Press ESC to exit the application.
-
-Your drawing session is automatically recorded as drawing_output.avi.
+Press ESC to exit. Your session is automatically saved as drawing_output.avi.
 
 🏗 Technology Stack
 
 Python
 
-OpenCV — Video capture and drawing utilities
+OpenCV — Video capture & drawing utilities
 
 MediaPipe — Hand tracking and landmark detection
 
-NumPy — Canvas and image processing
+NumPy — Canvas & image processing
 
 📊 File Structure
 HandGesturePaint/
@@ -124,9 +124,7 @@ HandGesturePaint/
 └─ README.md             # Project documentation
 🎥 Demo Video
 
-Check out a demonstration of the app in action:
-
-drawing_output.avi
+Check out the app in action: drawing_output.avi
 
 Shows real-time drawing, color selection, and erasing functionality.
 
@@ -136,16 +134,16 @@ Fork the repository
 
 Create a new branch (git checkout -b feature-name)
 
-Commit your changes (git commit -m 'Add feature')
+Commit your changes (git commit -m "Add feature")
 
-Push the branch (git push origin feature-name)
+Push to the branch (git push origin feature-name)
 
 Open a Pull Request
 
 🙏 Acknowledgments
 
-MediaPipe Hands for hand tracking
+MediaPipe Hands — Hand tracking
 
-OpenCV for computer vision and drawing utilities
+OpenCV — Computer vision and drawing utilities
 
-Inspired by gesture-based drawing applications and interactive UI design
+Inspired by gesture-based drawing apps and interactive UI design
