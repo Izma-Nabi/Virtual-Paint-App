@@ -54,12 +54,8 @@ Smooth performance on modern CPUs with minimal lag
 🖥 Screenshots
 
 Header with Color Palette
+ ![img1](https://github.com/user-attachments/assets/128f9630-20f6-4f99-9f53-808297b3c1d0)
 
-Screenshot here
-
-Drawing Mode
-
-Screenshot here
 
 🚀 Getting Started
 Prerequisites
@@ -85,11 +81,6 @@ python -m venv .venv
 # Linux / Mac
 source .venv/bin/activate
 
-Install dependencies:
-
-pip install -r requirements.txt
-Usage
-
 Run the app:
 
 python main.py
@@ -101,7 +92,7 @@ Two fingers up in header	Select color / eraser
 Index finger only	Draw on canvas
 Black color	Erase previous lines
 
-Press ESC to exit. Your session is automatically saved as drawing_output.avi.
+Press ESC to exit. 
 
 🏗 Technology Stack
 
@@ -120,7 +111,7 @@ HandGesturePaint/
 ├─ main.py               # Main application script
 ├─ htm.py                # Hand tracking module
 ├─ drawing_output.avi    # Recorded drawing session
-├─ requirements.txt      # Python dependencies
+├─ run_app.bat           # command to execute
 └─ README.md             # Project documentation
 🎥 Demo Video
 
